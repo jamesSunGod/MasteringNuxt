@@ -1,0 +1,46 @@
+[
+  {
+    "name": "admin",
+    "path": "/admin",
+    "component": "/Users/James/Documents/Nuxt BnB/pages/admin.vue",
+    "chunkName": "pages/admin",
+    "children": [
+      {
+        "name": "admin-homes",
+        "path": "homes",
+        "component": "/Users/James/Documents/Nuxt BnB/pages/admin/homes.vue",
+        "chunkName": "pages/admin/homes",
+        "_name": "_668488ad"
+      }
+    ],
+    "_name": "_9b3caaf0"
+  },
+  {
+    "name": "no-access",
+    "path": "/no-access",
+    "component": "/Users/James/Documents/Nuxt BnB/pages/no-access.vue",
+    "chunkName": "pages/no-access",
+    "_name": "_2fa03d29"
+  },
+  {
+    "name": "search",
+    "path": "/search",
+    "component": "/Users/James/Documents/Nuxt BnB/pages/search.vue",
+    "chunkName": "pages/search",
+    "_name": "_4917543f"
+  },
+  {
+    "name": "home-id",
+    "path": "/home/:id?",
+    "component": "/Users/James/Documents/Nuxt BnB/pages/home/_id.vue",
+    "chunkName": "pages/home/_id",
+    "_name": "_3692e661"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/James/Documents/Nuxt BnB/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_fe1b52ea"
+  }
+]
