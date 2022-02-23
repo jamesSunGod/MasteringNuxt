@@ -17,6 +17,7 @@
           {{ pluralize(home.guests, 'guest') }} &middot; {{ pluralize(home.bedrooms, 'room') }} &middot; {{ pluralize(home.beds, 'bed') }} &middot; {{ pluralize(home.bathrooms, 'bath') }}
         </div>
       </div>
+      
       <div>
         <div class="app-price">
           ${{ home.pricePerNight }} <span>/night</span>
