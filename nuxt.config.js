@@ -16,8 +16,8 @@ export default {
     prefetchLinks: false
   },
   plugins: [ '~/plugins/maps.client', '~/plugins/dataApi', '~/plugins/auth.client', '~/plugins/vCalendar.client', '~/plugins/stripe.client'],
-  modules: ['~/modules/auth.js', '~/modules/algolia', '~/modules/cloudinary', '@nuxtjs/cloudinary', '@nuxt/image', '~/modules/stripe'],
-  buildModules: ['@nuxtjs/tailwindcss'],
+  modules: ['~/modules/auth.js', '~/modules/algolia', '~/modules/cloudinary', '@nuxtjs/cloudinary', '~/modules/stripe'],
+  buildModules: ['@nuxtjs/tailwindcss', '@nuxt/image'],
   cloudinary: {
     cloudName: 'dx2mill4a',
   },
