@@ -1,7 +1,6 @@
 {
   "name": "masteringnuxt",
   "dependencies": {
-    "@nuxt/image": "0.4.17",
     "@nuxtjs/cloudinary": "^1.0.3",
     "body-parser": "^1.19.1",
     "cloudinary-vue": "1.1.2",
@@ -20,6 +19,7 @@
     "start": "nuxt start"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.6.2",
     "@nuxtjs/tailwindcss": "^4.2.1",
     "sass": "^1.47.0",
     "sass-loader": "^10.1.1"

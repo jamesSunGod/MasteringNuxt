@@ -19,7 +19,8 @@ const imageOptions = {
   },
   "presets": {},
   "provider": "ipx",
-  "domains": []
+  "domains": [],
+  "alias": {}
 }
 
 imageOptions.providers = {
