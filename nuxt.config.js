@@ -17,7 +17,7 @@ export default {
   },
   plugins: [ '~/plugins/maps.client', '~/plugins/dataApi', '~/plugins/auth.client', '~/plugins/vCalendar.client', '~/plugins/stripe.client'],
   modules: ['~/modules/auth.js', '~/modules/algolia', '~/modules/cloudinary', '@nuxtjs/cloudinary', '~/modules/stripe'],
-  buildModules: ['@nuxtjs/tailwindcss', '@nuxt/image'],
+  buildModules: ['@nuxtjs/tailwindcss'],
   cloudinary: {
     cloudName: 'dx2mill4a',
   },

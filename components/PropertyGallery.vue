@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     getImageUrl(publicId){
-      return this.$img(publicId, {
+      return this.$cloudinary.image.url(publicId, {
         width: 600
       },{
         provider: 'cloudinary'
