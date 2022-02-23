@@ -1,6 +1,8 @@
 <template>
 <div>
-  <cld-image class="app-house-header" provider="cloudinary" width="360" height="200" :public-id="home.images[0]" />
+  <client-only>
+    <cld-image class="app-house-header" width="360" height="200" :public-id="home.images[0]" />
+  </client-only>
   <div class="app-house-body">
     <img src="/images/icons.heart.svg" class="app-fav">
     <h2>

@@ -1,6 +1,9 @@
 <template>
   <div>
-    <cld-image :public-id="home.images[0]" width="200" height="150" provider="cloudinary" /><br/>
+  <client-only>
+    <cld-image :public-id="home.images[0]" width="200" height="150" />
+  </client-only>
+  <br/>
     {{ home.title }}<br/>
     {{ home.location.address }} {{ home.location.city }} {{ home.location.state }}<br/>
     {{ home.guests }} guests <br/>

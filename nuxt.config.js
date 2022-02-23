@@ -20,6 +20,7 @@ export default {
   buildModules: ['@nuxtjs/tailwindcss'],
   cloudinary: {
     cloudName: 'dx2mill4a',
+    useComponent: true
   },
   image: {
     cloudinary: {

@@ -3,6 +3,7 @@ import { ServerApi } from "~cloudinary/server";
 const configuration = {
   "privateCdn": false,
   "cloudName": "dx2mill4a",
+  "useComponent": true,
   "secure": true
 }
 
