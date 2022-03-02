@@ -21,7 +21,8 @@ export default {
         { hid: 'og-desc', property: 'og:description', content: this.home.description },
         { hid: 'og-image', property: 'og:image', 
           content: this.$cloudinary.image.url(this.home.images[0], {width: 1200}) },
-        { hid: 'og-url', property: 'og:url', content: `${this.$config.rootUrl}/home/${this.home.objectID}` }
+        { hid: 'og-url', property: 'og:url', content: `${this.$config.rootUrl}/home/${this.home.objectID}` },
+        { hid: 't-type', name: 'twitter:card', content: 'summary_large_image' }
       ]
     }
   },
