@@ -17,7 +17,7 @@ export default function() {
   this.nuxt.hook('render:setupMiddleware', (app) => {
     app.use('/hooks/stripe/', (req, res, next) => {
       const meta = req.body.data.object.metadata
-      res.end(`${meta.indentityId} booked ${meta.homeId}`)
+      res.end(`${meta.identityId} booked ${meta.homeId}`)
     })
   })
 
