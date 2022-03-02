@@ -1,5 +1,4 @@
 export default {
-  rootUrl: process.env.NODE_ENV === 'production' ? 'https://mastering-nuxt-inky.vercel.app' : 'http://localhost:3000',
   components: true,
   head: {
     titleTemplate: "Mastering Nuxt %s",
@@ -37,6 +36,7 @@ export default {
     standalone: true
   },
   publicRuntimeConfig: {
+    rootUrl: process.env.NODE_ENV === 'production' ? 'https://mastering-nuxt-inky.vercel.app' : 'http://localhost:3000',
     auth: {
       cookieName: 'idToken',
       clientId: '813268615129-e00jv4lqk1lijpn1i03lnk14kmd0r2td.apps.googleusercontent.com'
